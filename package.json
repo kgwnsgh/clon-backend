@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --exec babel-node server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/kgwnsgh/clon-backend/issues"
   },
-  "homepage": "https://github.com/kgwnsgh/clon-backend#readme"
+  "homepage": "https://github.com/kgwnsgh/clon-backend#readme",
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "graphql": "^16.3.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.16.8"
+  }
 }
